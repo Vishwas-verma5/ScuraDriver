@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/home"
+        android:id="@+id/nav_home"
         android:icon="@drawable/driver_handle_icon"
         android:title="Home" />
     <item
-        android:id="@+id/home1"
+        android:id="@+id/nav_ruppe"
         android:icon="@drawable/ruppe_icon"
         android:title="Home" />
     <item
