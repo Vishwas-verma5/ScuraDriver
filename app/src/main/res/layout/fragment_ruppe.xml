@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.RuppeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/te"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="#17AA52">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_50sdp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:text="₹0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-medium"
+            android:text="0 Rides Completed"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/lightbluebackgroud"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="icon"
+           android:gravity="center"
+           android:id="@+id/icon"
+           android:padding="10dp"
+           android:background="@drawable/large_circle"
+           android:textSize="@dimen/_20sdp"
+           android:backgroundTint="#17AA52"
+           android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/icon"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="You have negative balance.
+Take more rides to
+automatically repay or make a
+payment."/>
+
+        <TextView
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/white"
+            android:layout_below="@id/icon"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:fontFamily="sans-serif-medium"
+            android:background="@color/black"
+            android:text="Pay     ₹700.96"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/lightbluebackgroud"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="icon"
+            android:gravity="center"
+
+            android:padding="10dp"
+            android:background="@drawable/large_circle"
+            android:textSize="@dimen/_20sdp"
+            android:backgroundTint="@color/outlinecolor"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+
+
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Payment Calcutation in \nProgress"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+
+            android:src="@drawable/right_arrow_vector_assets"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/lightbluebackgroud"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="icon"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/large_circle"
+            android:textSize="@dimen/_20sdp"
+            android:backgroundTint="#17AA52"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+
+
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Payment Calcutation in \nProgress"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+
+            android:src="@drawable/right_arrow_vector_assets"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="icon"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/large_circle"
+            android:textSize="@dimen/_20sdp"
+            android:backgroundTint="#17AA52"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+
+
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Payment Calcutation in \nProgress"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+
+            android:src="@drawable/right_arrow_vector_assets"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="icon"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/large_circle"
+            android:textSize="@dimen/_20sdp"
+            android:backgroundTint="#17AA52"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+
+            
+            android:layout_marginLeft="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Payment Calcutation in \nProgress"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+
+            android:src="@drawable/right_arrow_vector_assets"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
