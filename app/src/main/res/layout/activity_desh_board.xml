@@ -32,13 +32,15 @@
         </com.google.android.material.appbar.AppBarLayout>
 
 
-   <FrameLayout
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"
-       android:id="@+id/framlayout"/>
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?actionBarSize"
+            android:id="@+id/framlayout"/>
 
     </LinearLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -46,6 +48,7 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/dash_nevbuttons"
             android:layout_alignParentBottom="true"
             android:layout_gravity="bottom"
             app:menu="@menu/toolbar_menu" />
