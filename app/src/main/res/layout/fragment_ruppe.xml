@@ -128,10 +128,11 @@ payment."/>
         android:layout_width="match_parent"
         android:layout_height="20dp"
         android:background="@color/lightbluebackgroud"/>
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
+        android:id="@+id/lay_balance"
         android:padding="10dp">
         <TextView
             android:layout_width="wrap_content"
@@ -139,6 +140,7 @@ payment."/>
             android:text="icon"
             android:gravity="center"
             android:padding="10dp"
+            android:id="@+id/icon1"
             android:background="@drawable/large_circle"
             android:textSize="@dimen/_20sdp"
             android:backgroundTint="#17AA52"
@@ -149,87 +151,92 @@ payment."/>
             android:layout_height="wrap_content"
             android:textSize="@dimen/_14sdp"
             android:textColor="@color/black"
-
-
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/icon1"
             android:layout_marginLeft="20dp"
             android:fontFamily="sans-serif-medium"
-            android:text="Payment Calcutation in \nProgress"/>
+            android:text="Balance"/>
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
-
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:src="@drawable/right_arrow_vector_assets"/>
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:padding="10dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="icon"
-            android:gravity="center"
-            android:padding="10dp"
-            android:background="@drawable/large_circle"
-            android:textSize="@dimen/_20sdp"
-            android:backgroundTint="#17AA52"
-            android:textColor="@color/white"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/_14sdp"
-            android:textColor="@color/black"
-
-
-            android:layout_marginLeft="20dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="Payment Calcutation in \nProgress"/>
-
-        <ImageView
+    </RelativeLayout>
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_25sdp"
-
-            android:src="@drawable/right_arrow_vector_assets"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:padding="10dp">
-        <TextView
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="icon"
-            android:gravity="center"
-            android:padding="10dp"
-            android:background="@drawable/large_circle"
-            android:textSize="@dimen/_20sdp"
-            android:backgroundTint="#17AA52"
-            android:textColor="@color/white"/>
+            android:gravity="center_vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="icon"
+                android:gravity="center"
+                android:padding="10dp"
+                android:id="@+id/icon2"
+                android:background="@drawable/large_circle"
+                android:textSize="@dimen/_20sdp"
+                android:backgroundTint="#17AA52"
+                android:textColor="@color/white"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="@dimen/_14sdp"
-            android:textColor="@color/black"
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/icon2"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Earning history"/>
 
-            
-            android:layout_marginLeft="20dp"
-            android:fontFamily="sans-serif-medium"
-            android:text="Payment Calcutation in \nProgress"/>
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/right_arrow_vector_assets"/>
 
-        <ImageView
+        </RelativeLayout>
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_25sdp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="icon"
+                android:gravity="center"
+                android:padding="10dp"
+                android:id="@+id/icon3"
+                android:background="@drawable/large_circle"
+                android:textSize="@dimen/_20sdp"
+                android:backgroundTint="#17AA52"
+                android:textColor="@color/white"/>
 
-            android:src="@drawable/right_arrow_vector_assets"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/icon3"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="incentives"/>
 
-    </LinearLayout>
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/right_arrow_vector_assets"/>
+
+        </RelativeLayout>
 
 
     </LinearLayout>

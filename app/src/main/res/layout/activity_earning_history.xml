@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EarningHistory">
+
+    <LinearLayout
+        android:id="@+id/te"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/lightGray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_50sdp"
+            android:layout_marginTop="20dp"
+            android:textColor="#36B13B"
+            android:fontFamily="sans-serif-medium"
+            android:text="₹0"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:text="0 Rides Completed"/>
+    </LinearLayout>
+
+
+</LinearLayout>

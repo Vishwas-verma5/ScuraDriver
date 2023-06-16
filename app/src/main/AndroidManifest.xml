@@ -12,6 +12,20 @@
         android:theme="@style/Theme.ScuraDriver"
         tools:targetApi="31">
         <activity
+            android:name=".EarningHistory"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CheckBalance"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Activities.KnonMoreAccidentalInsurance"
             android:exported="false" />
         <activity
